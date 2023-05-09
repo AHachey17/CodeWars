@@ -17,7 +17,7 @@ Dog Years
 +9 dog years for second year
 +5 dog years for each year after that */
 
-var humanYearsCatYearsDogYears = function(humanYears) {
+const humanYearsCatYearsDogYears = function(humanYears) {
   if (humanYears === 1){
     dogYears = 15
     catYears = 15

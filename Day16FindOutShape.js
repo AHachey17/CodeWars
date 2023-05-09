@@ -14,7 +14,7 @@ Note: side will be an integer*/
 
 
 
-var cubeChecker = function(volume, side){
+const cubeChecker = function(volume, side){
   let sides = side ** 3
   
   if (volume <= 0 || side <= 0){
